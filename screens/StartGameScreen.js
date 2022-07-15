@@ -28,6 +28,7 @@ const StartGameScreen = props => {
             return;
             
         }
+        console.log("Chosen Number",chosenNumber)
         setConfirmed(true);
         setEntretedValue('');
         setSelectedNumber(chosenNumber);
